@@ -66,4 +66,15 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //Redux
+    implementation(libs.redukt.core)
+    implementation(libs.redukt.ui)
+
+    //Retrofit e OkHttp
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.moshi)
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
+    implementation(libs.okhttp)
+
 }

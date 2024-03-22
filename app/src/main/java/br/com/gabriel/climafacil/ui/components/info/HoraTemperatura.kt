@@ -1,4 +1,4 @@
-package br.com.gabriel.climafacil.ui.components
+package br.com.gabriel.climafacil.ui.components.info
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -11,11 +11,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.gabriel.climafacil.model.Response
+import br.com.gabriel.climafacil.model.Dado
 import br.com.gabriel.climafacil.ui.theme.ClimaFacilTheme
 
 @Composable
-fun HoraTemperatura(dado: Response) {
+fun HoraTemperatura(dado: Dado) {
     Column(
         modifier = Modifier
             .padding(4.dp),
@@ -42,7 +42,7 @@ fun HoraTemperatura(dado: Response) {
 private fun TelaPrincipalPrev() {
     ClimaFacilTheme {
         Surface {
-            HoraTemperatura(Response( "18:00", "20 °C"))
+            HoraTemperatura(Dado( "18:00", "20 °C"))
         }
     }
 }

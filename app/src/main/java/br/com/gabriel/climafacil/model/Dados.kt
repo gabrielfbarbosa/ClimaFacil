@@ -1,6 +1,6 @@
 package br.com.gabriel.climafacil.model
 
-data class Response(
+data class Dado(
     val hr: String,
     val temp: String
 )

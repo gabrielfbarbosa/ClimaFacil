@@ -10,7 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.gabriel.climafacil.sample.sampleDados
+import br.com.gabriel.climafacil.model.sample.sampleDados
+import br.com.gabriel.climafacil.ui.components.info.DadosAtuais
 import br.com.gabriel.climafacil.ui.theme.ClimaFacilTheme
 
 @Composable

@@ -1,4 +1,4 @@
-package br.com.gabriel.climafacil.ui.components
+package br.com.gabriel.climafacil.ui.components.info
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -17,7 +17,7 @@ fun DadosAtuais(temperaturaAtual: String, condicaoAtual: String) {
             Text(
                 text = temperaturaAtual,
                 textAlign = TextAlign.Center,
-                style = MaterialTheme.typography.displayLarge,
+                style = MaterialTheme.typography.displaySmall,
                 modifier = Modifier.weight(1f)
             )
         }

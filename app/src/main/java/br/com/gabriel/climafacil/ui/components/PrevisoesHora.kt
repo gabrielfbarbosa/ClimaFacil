@@ -11,32 +11,41 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.gabriel.climafacil.model.Response
-import br.com.gabriel.climafacil.sample.sampleDados
+import br.com.gabriel.climafacil.model.Dado
+import br.com.gabriel.climafacil.model.sample.sampleDados
+import br.com.gabriel.climafacil.ui.components.info.HoraTemperatura
 
 @Composable
-fun PrevisoesHora(dados: List<Response>) {
-    Card(elevation = CardDefaults.cardElevation(4.dp)) {
-        Column {
+fun PrevisoesHora(dados: List<Dado>) {
+
+    Card(modifier = Modifier.padding(8.dp),
+        elevation = CardDefaults.cardElevation(1.dp),
+        colors = CardDefaults.cardColors(Color.Transparent),
+        shape = MaterialTheme.shapes.small,
+        ) {
+
+        Column(Modifier.padding(8.dp)) {
+
             Text(
                 text = "Estatus da hora. Minima de XX °C",
 
                 style = MaterialTheme.typography.titleLarge,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 8.dp, start = 8.dp, bottom = 8.dp)
+//                    .padding(top = 8.dp, start = 8.dp, bottom = 8.dp)
             )
 
             LazyRow(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(
-                        start = 8.dp,
-                        end = 8.dp,
-                        bottom = 8.dp
-                    ),
+//                    .padding(
+//                        start = 8.dp,
+//                        end = 8.dp,
+//                        bottom = 8.dp
+//                    ),
 
             ) {
                 items(dados) { d ->
@@ -47,7 +56,7 @@ fun PrevisoesHora(dados: List<Response>) {
     }
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 private fun PrevisoesHoraPrev() {
     PrevisoesHora(sampleDados)

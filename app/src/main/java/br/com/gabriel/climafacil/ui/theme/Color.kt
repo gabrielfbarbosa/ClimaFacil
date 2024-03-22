@@ -10,7 +10,6 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
-// Cores do amanhecer
 /*****
  * #7FA5DD
  * ##86654B
@@ -18,11 +17,14 @@ val Pink40 = Color(0xFF7D5260)
  * #DCC2C4
  * #DA7E42
  * *******/
-val Amanhecer01 = Color(0xFF7FA5DD)
-val Amanhecer02 = Color(0xFF86654B)
-val Amanhecer03 = Color(0xFF5A324D)
-val Amanhecer04 = Color(0xFFDCC2C4)
-val Amanhecer05 = Color(0xFFDA7E42)
+
+
+// Cores do amanhecer
+val Amanhecer01 = Color(0xFF0077B6)
+//val Amanhecer02 = Color(0xFF0096C7)
+val Amanhecer02 = Color(0xFF00B4D8)
+
+val Amanhecer03 = Color(0xFF90E0EF)
 
 
 /* Cores do Noite
