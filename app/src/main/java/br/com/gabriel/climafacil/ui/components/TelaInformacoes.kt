@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -16,20 +17,20 @@ import br.com.gabriel.climafacil.ui.theme.ClimaFacilTheme
 
 @Composable
 fun TelaInformacoes() {
-    Column(
+    LazyColumn(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(16.dp)
+//            .padding(1.dp)
     ) {
-        DadosAtuais("31°", "Parcial. nublado")
+        item { DadosAtuais("31°", "Parcial. nublado") }
 
-        Spacer(modifier = Modifier.height(8.dp))
+        item { Spacer(modifier = Modifier.height(8.dp)) }
 
-        DetalhesClima()
+        item { DetalhesClima() }
 
-        Spacer(modifier = Modifier.height(8.dp))
+        item { Spacer(modifier = Modifier.height(8.dp)) }
 
-        PrevisoesHora(sampleDados)
+        item { PrevisoesHora(sampleDados) }
     }
 }
 

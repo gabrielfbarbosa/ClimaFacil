@@ -1,4 +1,4 @@
-package br.com.gabriel.climafacil.ui.components
+package br.com.gabriel.climafacil.ui.components.info
 
 
 import androidx.compose.material.icons.Icons
@@ -46,6 +46,6 @@ fun ClimaTopAppBar(cidade: String) {
 
 @Preview(showBackground = true)
 @Composable
-private fun ClimaTopAppBarCORRETAPrev() {
+private fun ClimaTopAppBarPrev() {
     ClimaTopAppBar("Ilha Solteira")
 }

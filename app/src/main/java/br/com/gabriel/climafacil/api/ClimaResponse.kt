@@ -1,8 +1,8 @@
-package br.com.gabriel.climafacil.apitres
+package br.com.gabriel.climafacil.api
 
 import com.squareup.moshi.Json
 
-data class ResponseCompleto(
+data class ClimaResponse(
     val latitude: Double,
     val longitude: Double,
     val generationtime_ms: Double,
@@ -22,18 +22,20 @@ data class ResponseCompleto(
         val interval: String = "",
         @Json(name = "relative_humidity_2m") val relativeHumidity2m: String = "",
         @Json(name = "temperature_2m") val temperature2m: String = "",
-        val precipitation_probability: String = ""
+        val precipitation_probability: String = "",
     )
 
     data class Current(
         val time: String,
         val interval: Int,
-        @Json(name = "relative_humidity_2m") val relativeHumidity2m: Int
+        @Json(name = "relative_humidity_2m") val relativeHumidity2m: Int?,
+        val is_day: Int
     )
 
     data class Hourly(
         val time: List<String>,
         @Json(name = "temperature_2m") val temperatures: List<Double>,
+        val relative_humidity_2m: List<Int?>,
         val precipitation_probability: List<Int>
     )
 

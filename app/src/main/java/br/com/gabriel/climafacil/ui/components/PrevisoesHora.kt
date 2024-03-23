@@ -8,6 +8,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedCard
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -21,8 +22,7 @@ import br.com.gabriel.climafacil.ui.components.info.HoraTemperatura
 @Composable
 fun PrevisoesHora(dados: List<Dado>) {
 
-    Card(modifier = Modifier.padding(8.dp),
-        elevation = CardDefaults.cardElevation(1.dp),
+    OutlinedCard(modifier = Modifier.padding(8.dp),
         colors = CardDefaults.cardColors(Color.Transparent),
         shape = MaterialTheme.shapes.small,
         ) {
@@ -35,19 +35,9 @@ fun PrevisoesHora(dados: List<Dado>) {
                 style = MaterialTheme.typography.titleLarge,
                 modifier = Modifier
                     .fillMaxWidth()
-//                    .padding(top = 8.dp, start = 8.dp, bottom = 8.dp)
             )
 
-            LazyRow(
-                modifier = Modifier
-                    .fillMaxWidth()
-//                    .padding(
-//                        start = 8.dp,
-//                        end = 8.dp,
-//                        bottom = 8.dp
-//                    ),
-
-            ) {
+            LazyRow( modifier = Modifier.fillMaxWidth()) {
                 items(dados) { d ->
                     HoraTemperatura(dado = d)
                 }

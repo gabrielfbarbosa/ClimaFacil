@@ -28,7 +28,7 @@ fun CardInformacao(titulo: String, valor: String) {
             .fillMaxWidth()
             .padding(8.dp),
 
-        border = BorderStroke(1.dp, Color.Transparent),
+//        border = ,
         colors = CardDefaults.cardColors(
             containerColor = Color.Transparent,
 //            contentColor = Color.Transparent,

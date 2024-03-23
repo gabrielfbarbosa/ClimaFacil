@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import br.com.gabriel.climafacil.ui.components.info.ClimaTopAppBar
 import br.com.gabriel.climafacil.ui.theme.Amanhecer01
 import br.com.gabriel.climafacil.ui.theme.Amanhecer02
 import br.com.gabriel.climafacil.ui.theme.Amanhecer03
@@ -33,16 +34,18 @@ val NOITE = listOf(
 )
 
 
-fun getBackgroundColor(): List<Color> {
-    val currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
-    return if (currentHour in 6..18) DIA else NOITE
-}
+
 
 @Composable
 fun TelaInicial() {
+    fun getBackgroundColor(): List<Color> {
+        val currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
+        return if (currentHour in 6..18) DIA else NOITE
+    }
     val backgroundColor = getBackgroundColor()
 
-    Box(modifier = Modifier.background(Brush.verticalGradient(DIA))
+    Box(
+        modifier = Modifier.background(Brush.verticalGradient(DIA))
     ) {
         Scaffold(
             modifier = Modifier.fillMaxSize(),
@@ -53,11 +56,7 @@ fun TelaInicial() {
 
             ) {
 
-            Column(
-                Modifier
-                    .padding(it)
-
-            ) {
+            Column(Modifier.padding(it)) {
                 TelaInformacoes()
             }
         }
