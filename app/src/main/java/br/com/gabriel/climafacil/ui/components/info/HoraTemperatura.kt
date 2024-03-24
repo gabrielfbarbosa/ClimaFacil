@@ -25,12 +25,12 @@ fun HoraTemperatura(dado: Dado) {
 
         Text(
             text = dado.hr,
-            style = MaterialTheme.typography.titleLarge,
+            style = MaterialTheme.typography.headlineSmall,
             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
         )
 
         Text(
-            text = dado.temp,
+            text = "${dado.temp}${dado.temUnit}",
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.titleLarge,
         )
@@ -42,7 +42,7 @@ fun HoraTemperatura(dado: Dado) {
 private fun TelaPrincipalPrev() {
     ClimaFacilTheme {
         Surface {
-            HoraTemperatura(Dado( "18:00", "20 °C"))
+            HoraTemperatura(Dado( "18:00", 20.0, "ºC"))
         }
     }
 }

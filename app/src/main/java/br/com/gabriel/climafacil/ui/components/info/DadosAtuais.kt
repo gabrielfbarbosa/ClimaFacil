@@ -11,31 +11,21 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun DadosAtuais(temperaturaAtual: String, condicaoAtual: String) {
+fun DadosAtuais(temperaturaAtual: Double, unidadeTemp: String) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Row {
             Text(
-                text = temperaturaAtual,
+                text = "$temperaturaAtual $unidadeTemp",
                 textAlign = TextAlign.Center,
                 style = MaterialTheme.typography.displaySmall,
                 modifier = Modifier.weight(1f)
             )
         }
-        Row {
-            Text(
-                text = condicaoAtual,
-                textAlign = TextAlign.Center,
-                style = MaterialTheme.typography.titleLarge,
-                modifier = Modifier.weight(1f)
-            )
-
-        }
-
     }
 }
 
 @Preview(showBackground = true)
 @Composable
 private fun DadosAtuaisPrev() {
-    DadosAtuais("18°", "Chuvoso")
+    DadosAtuais(18.0, "ºC")
 }
