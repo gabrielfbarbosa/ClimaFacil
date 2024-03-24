@@ -66,4 +66,23 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    //Localizacao
+    implementation ("com.google.maps.android:maps-compose:2.11.4")
+    implementation(libs.play.services.location)
+    implementation(libs.play.services.maps)
+
+    //Redux
+    implementation(libs.redukt.core)
+    implementation(libs.redukt.ui)
+
+    //Retrofit e OkHttp
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.moshi)
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
+    implementation(libs.okhttp)
+
+    implementation( "com.google.accompanist:accompanist-permissions:0.35.0-alpha")
+
 }

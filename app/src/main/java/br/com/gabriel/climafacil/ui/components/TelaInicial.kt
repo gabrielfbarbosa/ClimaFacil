@@ -1,10 +1,10 @@
 package br.com.gabriel.climafacil.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
@@ -12,25 +12,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import br.com.gabriel.climafacil.apiCORRETA.modelCORRETA.Weather
+import br.com.gabriel.climafacil.ui.components.info.ClimaTopAppBar
 import br.com.gabriel.climafacil.ui.theme.Amanhecer01
 import br.com.gabriel.climafacil.ui.theme.Amanhecer02
 import br.com.gabriel.climafacil.ui.theme.Amanhecer03
-import br.com.gabriel.climafacil.ui.theme.Amanhecer04
-import br.com.gabriel.climafacil.ui.theme.Amanhecer05
 import br.com.gabriel.climafacil.ui.theme.ClimaFacilTheme
-import br.com.gabriel.climafacil.ui.theme.Noite01
-import br.com.gabriel.climafacil.ui.theme.Noite02
 import br.com.gabriel.climafacil.ui.theme.Noite03
 import br.com.gabriel.climafacil.ui.theme.Noite04
 import br.com.gabriel.climafacil.ui.theme.Noite05
+import br.com.gabriel.climafacil.utils.ClimaUtils
 import java.util.Calendar
 
 val DIA = listOf(
     Amanhecer01,
     Amanhecer02,
     Amanhecer03,
-    Amanhecer04,
-    Amanhecer05
 )
 val NOITE = listOf(
     Noite03,
@@ -38,36 +35,26 @@ val NOITE = listOf(
     Noite05,
 )
 
-
-fun getBackgroundColor(): List<Color> {
-    val currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
-    return if (currentHour in 6..18) DIA else NOITE
-}
-
 @Composable
-fun TelaInicial() {
+fun TelaInicial(weatherResponse: Weather, cidade: String) {
+    fun getBackgroundColor(): List<Color> {
+        val diaNoite = weatherResponse.current?.is_day
+        return if (diaNoite == 1) DIA else NOITE
+    }
     val backgroundColor = getBackgroundColor()
 
-    Scaffold(modifier = Modifier
-        .fillMaxSize(),
+    Box( modifier = Modifier.background(Brush.verticalGradient(backgroundColor))) {
+        Scaffold(
+            modifier = Modifier.fillMaxSize(),
+            containerColor = Color.Transparent,
 
-        topBar = {
-            ClimaTopAppBar("Aquii")
-        },
-
-    ) {
-
-        Column(
-            Modifier
-                .padding(it)
-                .background(
-                    Brush.verticalGradient(
-                        colors = backgroundColor
-                    )
-                )
-
-        ) {
-            TelaInformacoes()
+            topBar = {
+                ClimaTopAppBar(cidade = cidade)
+            }
+        ) { contentPadding ->
+            Column(Modifier.padding(contentPadding)) {
+                TelaInformacoes(weatherResponse)
+            }
         }
     }
 }
@@ -77,7 +64,7 @@ fun TelaInicial() {
 private fun CorFundoPreview() {
     ClimaFacilTheme {
         Surface {
-            TelaInicial()
+            TelaInicial(Weather(), "Cidade")
         }
     }
 }
