@@ -26,7 +26,7 @@
 
 #### 📁 Acesso ao projeto
 
-Você pode acessar o [código fonte do projeto](https://github.com/gabrielfbarbosa/ClimaFacil/tree/develop) ou [baixá-lo](https://github.com/gabrielfbarbosa/ClimaFacil//archive/refs/heads/develop.zip).
+Você pode acessar o [código fonte do projeto](https://github.com/gabrielfbarbosa/ClimaFacil/tree/main) ou [baixá-lo](https://github.com/gabrielfbarbosa/ClimaFacil//archive/refs/heads/main.zip).
 
 - 🔹Configuração de Variáveis de Ambiente: Não há necessidade de configurar variáveis de ambiente para executar o projeto.
 - 📱 Requisitos de Execução: O projeto é executado em dispositivos Android com uma versão mínima de API 21 (Android 5.0 Lollipop) ou superior.
