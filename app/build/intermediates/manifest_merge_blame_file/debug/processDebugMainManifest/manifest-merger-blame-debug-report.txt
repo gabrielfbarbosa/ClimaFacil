@@ -1,0 +1,222 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.gabriel.climafacil"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:5:5-81
+11-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:7:5-85
+13-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:7:22-82
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:9:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+28        android:name="br.com.gabriel.climafacil.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="br.com.gabriel.climafacil.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:11:5-42:19
+34        android:allowBackup="true"
+34-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:12:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:13:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:14:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:15:9-43
+41        android:label="@string/app_name"
+41-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:16:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:17:9-54
+43        android:supportsRtl="true"
+43-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:18:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.ClimaFacil" >
+45-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:19:9-48
+46        <activity
+46-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:21:9-25:55
+47            android:name="br.com.gabriel.climafacil.localizacao.MapsActivityCurrentPlace"
+47-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:22:13-65
+48            android:exported="false"
+48-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:23:13-37
+49            android:label="@string/title_activity_maps_current_place"
+49-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:24:13-70
+50            android:theme="@style/Theme.ClimaFacil" />
+50-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:25:13-52
+51        <activity
+51-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:26:9-30:55
+52            android:name="br.com.gabriel.climafacil.localizacao.LocalizacaoActivity"
+52-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:27:13-60
+53            android:exported="false"
+53-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:28:13-37
+54            android:label="@string/title_activity_localizacao"
+54-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:29:13-63
+55            android:theme="@style/Theme.ClimaFacil" />
+55-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:30:13-52
+56        <activity
+56-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:31:9-41:20
+57            android:name="br.com.gabriel.climafacil.MainActivity"
+57-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:32:13-41
+58            android:exported="true"
+58-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:33:13-36
+59            android:label="@string/app_name"
+59-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:34:13-45
+60            android:theme="@style/Theme.ClimaFacil" >
+60-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:35:13-52
+61            <intent-filter>
+61-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:36:13-40:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:37:17-69
+62-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:37:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:39:17-77
+64-->/home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:39:27-74
+65            </intent-filter>
+66        </activity>
+67        <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+80
+81        <activity
+81-->[androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+82            android:name="androidx.compose.ui.tooling.PreviewActivity"
+82-->[androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+83            android:exported="true" />
+83-->[androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+84        <activity
+84-->[androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:23:9-25:39
+85            android:name="androidx.activity.ComponentActivity"
+85-->[androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:24:13-63
+86            android:exported="true" />
+86-->[androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:25:13-36
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+90            android:authorities="br.com.gabriel.climafacil.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+100                android:value="androidx.startup" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+101        </provider>
+102
+103        <receiver
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+104            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+105            android:directBootAware="false"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+106            android:enabled="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+107            android:exported="true"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+108            android:permission="android.permission.DUMP" >
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+110                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+113                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+116                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+119                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+120            </intent-filter>
+121        </receiver>
+122    </application>
+123
+124</manifest>

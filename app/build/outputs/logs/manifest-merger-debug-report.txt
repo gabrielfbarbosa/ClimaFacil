@@ -1,0 +1,480 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [com.google.maps.android:maps-compose:2.11.4] /home/biel/.gradle/caches/transforms-3/6524b6751b90960273ff5f6edd75463a/transformed/maps-compose-2.11.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-permissions:0.35.0-alpha] /home/biel/.gradle/caches/transforms-3/6c23bed37940fbc02486c7d0b9fb91c4/transformed/accompanist-permissions-0.35.0-alpha/AndroidManifest.xml:17:1-23:12
+MERGED from [com.github.oxeanbits.redukt:ui:0.1.4] /home/biel/.gradle/caches/transforms-3/f4fe7eb62e7cbbdc1a5c195184e0c60b/transformed/ui-0.1.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/biel/.gradle/caches/transforms-3/2f87297ddb30e6ed25e612f90009a78f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/biel/.gradle/caches/transforms-3/8cae2b85c860fc36e37bc072429a07b7/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] /home/biel/.gradle/caches/transforms-3/74d341e4eb2d26b5b9b492b0cf287ff1/transformed/maps-ktx-3.3.0/AndroidManifest.xml:18:1-25:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/biel/.gradle/caches/transforms-3/640cc289ef912f17e1caa3e5a267faef/transformed/play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/biel/.gradle/caches/transforms-3/6fcbe03deacd6c3374572309eaebe3a9/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/biel/.gradle/caches/transforms-3/5b06a1e0fe318ff5d6edb249834f479c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/biel/.gradle/caches/transforms-3/676d01faf3bd52b4a5e76d37f8817e60/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a33a2fde958bcdf8b7094bc2ea2a6141/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/23d546ace2c6954c6dd97863c5d246bf/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/d62856595bed2f4a3c095a6bd969129e/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/0fe709d0909653f97256144c8b6c0bb5/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/7711e6e7f275432ed03a3c73913de4b9/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/5181d79daeb266b0e6d02908db99949f/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/3c5b2b1eb4fa5e39a637b504f6817ffd/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/deba8c802927744e4b3acac42acca49e/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/55ff967f34e4db3e5545750c077e880d/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/927279e417fff0b7e036113a85eeb16d/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.3] /home/biel/.gradle/caches/transforms-3/19f521a66ef03a4a5e16d6c359be4c64/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.3] /home/biel/.gradle/caches/transforms-3/05046e87c44618e9841bc41b6cee7d67/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.3] /home/biel/.gradle/caches/transforms-3/3940de70423c7b9a1ce6115fab3b42ec/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/b9dc7edb5ae26973bce1163899baf641/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/19da612c3dc8f20ab312ea3183db029a/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.2] /home/biel/.gradle/caches/transforms-3/10db6f346c4a30509171af0838ec12ac/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/biel/.gradle/caches/transforms-3/15cf8bcaf75c2055c49550539564ca21/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/biel/.gradle/caches/transforms-3/fc7046290d3ffb3faf888effad8eb051/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /home/biel/.gradle/caches/transforms-3/fcc54918788bbb35a7c302ca70f6453d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/biel/.gradle/caches/transforms-3/e4f8d9230879b8eda45e11947ec82f35/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/5d2026687aa2473d4621c5e97b35ea7f/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/biel/.gradle/caches/transforms-3/9016b63a0a5fe92e0f48ef58cf319267/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/biel/.gradle/caches/transforms-3/e06a2053ff43e623ff05a1402321a7c1/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/biel/.gradle/caches/transforms-3/b55003d8e4ec7dbd19c383b2d250616b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/biel/.gradle/caches/transforms-3/303c19c9ba7176e9cef6ba0cd6585ff3/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/29e0abcf502e1f322e4b3be8cac71840/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/biel/.gradle/caches/transforms-3/f4e7c6521d0f3159ea046854ebbf272c/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/biel/.gradle/caches/transforms-3/67705f0f760e7a3d3b841757c5d7355f/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/biel/.gradle/caches/transforms-3/ec0363336b3093dddbf5d448e7913a56/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/biel/.gradle/caches/transforms-3/8fb7628f4d48db8ec608c1cf5012931e/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/biel/.gradle/caches/transforms-3/e9d951c4d982632ad0ca3393db27ac59/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/biel/.gradle/caches/transforms-3/523da9a0124d0f9f9790a5ef6cfa5707/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/biel/.gradle/caches/transforms-3/c8014cbe49a9e46d3375bc6a956a2f65/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/biel/.gradle/caches/transforms-3/362fb1121eacba7c5fd15f207c0772a4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/biel/.gradle/caches/transforms-3/71eb58884ee1e4265ff28c08bc87c85e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/biel/.gradle/caches/transforms-3/4be7b1aa998ba43429ca7674b638e3e9/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.0-beta02] /home/biel/.gradle/caches/transforms-3/d866699ead37a5e9422f905e97d9980d/transformed/graphics-path-1.0.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/biel/.gradle/caches/transforms-3/3520d63af3dc3fc315c095fc8ecf37d1/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/biel/.gradle/caches/transforms-3/7cb01e44f6780b5f04b9d998a2988320/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/86106a1ce238bb500e91e7185adc39ad/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/bc09c2e9015c893c99b89237755b0c89/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/9b1dce125cbea1b4b323a2cb77d3f011/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.oxeanbits.redukt:core:0.1.4] /home/biel/.gradle/caches/transforms-3/b8a20cb723a8f0d4f8e057fe2de7856b/transformed/core-0.1.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/biel/.gradle/caches/transforms-3/3976bcc0ea6170fb0a1159955bf0c6ad/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/biel/.gradle/caches/transforms-3/12505053e11933e2ff1a95d97f3b059a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/biel/.gradle/caches/transforms-3/f9fb2820852dae643c4f026e25038219/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/biel/.gradle/caches/transforms-3/823648e0ffdf64eb24e06c86729c4dae/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/biel/.gradle/caches/transforms-3/e77ab2d9d6f2a00712ada99e3b3c886c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/biel/.gradle/caches/transforms-3/3526481d7f66feb821c7f2452ebc4f56/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:7:5-85
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:7:22-82
+uses-permission#android.permission.INTERNET
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:9:22-76
+application
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:11:5-42:19
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:11:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/biel/.gradle/caches/transforms-3/640cc289ef912f17e1caa3e5a267faef/transformed/play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/biel/.gradle/caches/transforms-3/640cc289ef912f17e1caa3e5a267faef/transformed/play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/biel/.gradle/caches/transforms-3/6fcbe03deacd6c3374572309eaebe3a9/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/biel/.gradle/caches/transforms-3/6fcbe03deacd6c3374572309eaebe3a9/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/biel/.gradle/caches/transforms-3/12505053e11933e2ff1a95d97f3b059a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/biel/.gradle/caches/transforms-3/12505053e11933e2ff1a95d97f3b059a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:14:9-54
+	android:roundIcon
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:17:9-54
+	tools:targetApi
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:19:9-48
+	android:dataExtractionRules
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:13:9-65
+activity#br.com.gabriel.climafacil.localizacao.MapsActivityCurrentPlace
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:21:9-25:55
+	android:label
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:24:13-70
+	android:exported
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:25:13-52
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:22:13-65
+activity#br.com.gabriel.climafacil.localizacao.LocalizacaoActivity
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:26:9-30:55
+	android:label
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:29:13-63
+	android:exported
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:28:13-37
+	android:theme
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:30:13-52
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:27:13-60
+activity#br.com.gabriel.climafacil.MainActivity
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:31:9-41:20
+	android:label
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:34:13-45
+	android:exported
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:33:13-36
+	android:theme
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:35:13-52
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:32:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+MERGED from [com.google.maps.android:maps-compose:2.11.4] /home/biel/.gradle/caches/transforms-3/6524b6751b90960273ff5f6edd75463a/transformed/maps-compose-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:maps-compose:2.11.4] /home/biel/.gradle/caches/transforms-3/6524b6751b90960273ff5f6edd75463a/transformed/maps-compose-2.11.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-permissions:0.35.0-alpha] /home/biel/.gradle/caches/transforms-3/6c23bed37940fbc02486c7d0b9fb91c4/transformed/accompanist-permissions-0.35.0-alpha/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-permissions:0.35.0-alpha] /home/biel/.gradle/caches/transforms-3/6c23bed37940fbc02486c7d0b9fb91c4/transformed/accompanist-permissions-0.35.0-alpha/AndroidManifest.xml:21:5-44
+MERGED from [com.github.oxeanbits.redukt:ui:0.1.4] /home/biel/.gradle/caches/transforms-3/f4fe7eb62e7cbbdc1a5c195184e0c60b/transformed/ui-0.1.4/AndroidManifest.xml:5:5-44
+MERGED from [com.github.oxeanbits.redukt:ui:0.1.4] /home/biel/.gradle/caches/transforms-3/f4fe7eb62e7cbbdc1a5c195184e0c60b/transformed/ui-0.1.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/biel/.gradle/caches/transforms-3/2f87297ddb30e6ed25e612f90009a78f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/biel/.gradle/caches/transforms-3/2f87297ddb30e6ed25e612f90009a78f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/biel/.gradle/caches/transforms-3/8cae2b85c860fc36e37bc072429a07b7/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/biel/.gradle/caches/transforms-3/8cae2b85c860fc36e37bc072429a07b7/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] /home/biel/.gradle/caches/transforms-3/74d341e4eb2d26b5b9b492b0cf287ff1/transformed/maps-ktx-3.3.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.maps.android:maps-ktx:3.3.0] /home/biel/.gradle/caches/transforms-3/74d341e4eb2d26b5b9b492b0cf287ff1/transformed/maps-ktx-3.3.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/biel/.gradle/caches/transforms-3/640cc289ef912f17e1caa3e5a267faef/transformed/play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/biel/.gradle/caches/transforms-3/640cc289ef912f17e1caa3e5a267faef/transformed/play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/biel/.gradle/caches/transforms-3/6fcbe03deacd6c3374572309eaebe3a9/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/biel/.gradle/caches/transforms-3/6fcbe03deacd6c3374572309eaebe3a9/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /home/biel/.gradle/caches/transforms-3/5b06a1e0fe318ff5d6edb249834f479c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/biel/.gradle/caches/transforms-3/5b06a1e0fe318ff5d6edb249834f479c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/biel/.gradle/caches/transforms-3/676d01faf3bd52b4a5e76d37f8817e60/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/biel/.gradle/caches/transforms-3/676d01faf3bd52b4a5e76d37f8817e60/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a33a2fde958bcdf8b7094bc2ea2a6141/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a33a2fde958bcdf8b7094bc2ea2a6141/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/23d546ace2c6954c6dd97863c5d246bf/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/23d546ace2c6954c6dd97863c5d246bf/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/d62856595bed2f4a3c095a6bd969129e/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/d62856595bed2f4a3c095a6bd969129e/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/0fe709d0909653f97256144c8b6c0bb5/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/0fe709d0909653f97256144c8b6c0bb5/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/7711e6e7f275432ed03a3c73913de4b9/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/7711e6e7f275432ed03a3c73913de4b9/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/5181d79daeb266b0e6d02908db99949f/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/5181d79daeb266b0e6d02908db99949f/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/3c5b2b1eb4fa5e39a637b504f6817ffd/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/3c5b2b1eb4fa5e39a637b504f6817ffd/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/deba8c802927744e4b3acac42acca49e/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/deba8c802927744e4b3acac42acca49e/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/55ff967f34e4db3e5545750c077e880d/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/55ff967f34e4db3e5545750c077e880d/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/927279e417fff0b7e036113a85eeb16d/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/927279e417fff0b7e036113a85eeb16d/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.3] /home/biel/.gradle/caches/transforms-3/19f521a66ef03a4a5e16d6c359be4c64/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.3] /home/biel/.gradle/caches/transforms-3/19f521a66ef03a4a5e16d6c359be4c64/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.3] /home/biel/.gradle/caches/transforms-3/05046e87c44618e9841bc41b6cee7d67/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.3] /home/biel/.gradle/caches/transforms-3/05046e87c44618e9841bc41b6cee7d67/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.3] /home/biel/.gradle/caches/transforms-3/3940de70423c7b9a1ce6115fab3b42ec/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.3] /home/biel/.gradle/caches/transforms-3/3940de70423c7b9a1ce6115fab3b42ec/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/b9dc7edb5ae26973bce1163899baf641/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/b9dc7edb5ae26973bce1163899baf641/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/19da612c3dc8f20ab312ea3183db029a/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/19da612c3dc8f20ab312ea3183db029a/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/biel/.gradle/caches/transforms-3/10db6f346c4a30509171af0838ec12ac/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/biel/.gradle/caches/transforms-3/10db6f346c4a30509171af0838ec12ac/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/biel/.gradle/caches/transforms-3/15cf8bcaf75c2055c49550539564ca21/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/biel/.gradle/caches/transforms-3/15cf8bcaf75c2055c49550539564ca21/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/biel/.gradle/caches/transforms-3/fc7046290d3ffb3faf888effad8eb051/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/biel/.gradle/caches/transforms-3/fc7046290d3ffb3faf888effad8eb051/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/biel/.gradle/caches/transforms-3/fcc54918788bbb35a7c302ca70f6453d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/biel/.gradle/caches/transforms-3/fcc54918788bbb35a7c302ca70f6453d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/biel/.gradle/caches/transforms-3/e4f8d9230879b8eda45e11947ec82f35/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/biel/.gradle/caches/transforms-3/e4f8d9230879b8eda45e11947ec82f35/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/5d2026687aa2473d4621c5e97b35ea7f/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/5d2026687aa2473d4621c5e97b35ea7f/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/biel/.gradle/caches/transforms-3/9016b63a0a5fe92e0f48ef58cf319267/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/biel/.gradle/caches/transforms-3/9016b63a0a5fe92e0f48ef58cf319267/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/biel/.gradle/caches/transforms-3/e06a2053ff43e623ff05a1402321a7c1/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/biel/.gradle/caches/transforms-3/e06a2053ff43e623ff05a1402321a7c1/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/biel/.gradle/caches/transforms-3/b55003d8e4ec7dbd19c383b2d250616b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/biel/.gradle/caches/transforms-3/b55003d8e4ec7dbd19c383b2d250616b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/biel/.gradle/caches/transforms-3/303c19c9ba7176e9cef6ba0cd6585ff3/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/biel/.gradle/caches/transforms-3/303c19c9ba7176e9cef6ba0cd6585ff3/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/29e0abcf502e1f322e4b3be8cac71840/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/29e0abcf502e1f322e4b3be8cac71840/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/biel/.gradle/caches/transforms-3/f4e7c6521d0f3159ea046854ebbf272c/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/biel/.gradle/caches/transforms-3/f4e7c6521d0f3159ea046854ebbf272c/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/biel/.gradle/caches/transforms-3/67705f0f760e7a3d3b841757c5d7355f/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/biel/.gradle/caches/transforms-3/67705f0f760e7a3d3b841757c5d7355f/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/biel/.gradle/caches/transforms-3/ec0363336b3093dddbf5d448e7913a56/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/biel/.gradle/caches/transforms-3/ec0363336b3093dddbf5d448e7913a56/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /home/biel/.gradle/caches/transforms-3/8fb7628f4d48db8ec608c1cf5012931e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/biel/.gradle/caches/transforms-3/8fb7628f4d48db8ec608c1cf5012931e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/biel/.gradle/caches/transforms-3/e9d951c4d982632ad0ca3393db27ac59/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/biel/.gradle/caches/transforms-3/e9d951c4d982632ad0ca3393db27ac59/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/biel/.gradle/caches/transforms-3/523da9a0124d0f9f9790a5ef6cfa5707/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/biel/.gradle/caches/transforms-3/523da9a0124d0f9f9790a5ef6cfa5707/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/biel/.gradle/caches/transforms-3/c8014cbe49a9e46d3375bc6a956a2f65/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/biel/.gradle/caches/transforms-3/c8014cbe49a9e46d3375bc6a956a2f65/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/biel/.gradle/caches/transforms-3/362fb1121eacba7c5fd15f207c0772a4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/biel/.gradle/caches/transforms-3/362fb1121eacba7c5fd15f207c0772a4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/biel/.gradle/caches/transforms-3/71eb58884ee1e4265ff28c08bc87c85e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/biel/.gradle/caches/transforms-3/71eb58884ee1e4265ff28c08bc87c85e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/biel/.gradle/caches/transforms-3/4be7b1aa998ba43429ca7674b638e3e9/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/biel/.gradle/caches/transforms-3/4be7b1aa998ba43429ca7674b638e3e9/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.0-beta02] /home/biel/.gradle/caches/transforms-3/d866699ead37a5e9422f905e97d9980d/transformed/graphics-path-1.0.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.0-beta02] /home/biel/.gradle/caches/transforms-3/d866699ead37a5e9422f905e97d9980d/transformed/graphics-path-1.0.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/biel/.gradle/caches/transforms-3/3520d63af3dc3fc315c095fc8ecf37d1/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/biel/.gradle/caches/transforms-3/3520d63af3dc3fc315c095fc8ecf37d1/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/biel/.gradle/caches/transforms-3/7cb01e44f6780b5f04b9d998a2988320/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/biel/.gradle/caches/transforms-3/7cb01e44f6780b5f04b9d998a2988320/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/86106a1ce238bb500e91e7185adc39ad/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/biel/.gradle/caches/transforms-3/86106a1ce238bb500e91e7185adc39ad/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/bc09c2e9015c893c99b89237755b0c89/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/bc09c2e9015c893c99b89237755b0c89/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/9b1dce125cbea1b4b323a2cb77d3f011/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/9b1dce125cbea1b4b323a2cb77d3f011/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.github.oxeanbits.redukt:core:0.1.4] /home/biel/.gradle/caches/transforms-3/b8a20cb723a8f0d4f8e057fe2de7856b/transformed/core-0.1.4/AndroidManifest.xml:5:5-44
+MERGED from [com.github.oxeanbits.redukt:core:0.1.4] /home/biel/.gradle/caches/transforms-3/b8a20cb723a8f0d4f8e057fe2de7856b/transformed/core-0.1.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/biel/.gradle/caches/transforms-3/3976bcc0ea6170fb0a1159955bf0c6ad/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/biel/.gradle/caches/transforms-3/3976bcc0ea6170fb0a1159955bf0c6ad/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/biel/.gradle/caches/transforms-3/12505053e11933e2ff1a95d97f3b059a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/biel/.gradle/caches/transforms-3/12505053e11933e2ff1a95d97f3b059a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/biel/.gradle/caches/transforms-3/f9fb2820852dae643c4f026e25038219/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/biel/.gradle/caches/transforms-3/f9fb2820852dae643c4f026e25038219/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/biel/.gradle/caches/transforms-3/823648e0ffdf64eb24e06c86729c4dae/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/biel/.gradle/caches/transforms-3/823648e0ffdf64eb24e06c86729c4dae/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/biel/.gradle/caches/transforms-3/e77ab2d9d6f2a00712ada99e3b3c886c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/biel/.gradle/caches/transforms-3/e77ab2d9d6f2a00712ada99e3b3c886c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/biel/.gradle/caches/transforms-3/3526481d7f66feb821c7f2452ebc4f56/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/biel/.gradle/caches/transforms-3/3526481d7f66feb821c7f2452ebc4f56/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/biel/BIEL/proj/projeto/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/biel/.gradle/caches/transforms-3/25e718822c7a3df3a6eb51d51ccd610c/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/biel/.gradle/caches/transforms-3/d05872522260c7454a8cc104869a4dd0/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/biel/.gradle/caches/transforms-3/2573242cc159e886f9b416c37d777c8d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/8ecc70b6ef8d17bf32555e469d681aaf/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0-alpha01] /home/biel/.gradle/caches/transforms-3/a2fc61aa7a898dd68ffd3c75d5510718/transformed/ui-test-manifest-1.7.0-alpha01/AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/biel/.gradle/caches/transforms-3/302017dbb68d6db09b5480d74864f457/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/biel/.gradle/caches/transforms-3/658c326a2005e23d996dffc1b7a63a11/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/biel/.gradle/caches/transforms-3/ecb92e0905bc0c0b4416e35271bceeb7/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#br.com.gabriel.climafacil.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#br.com.gabriel.climafacil.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/biel/.gradle/caches/transforms-3/35d4d776ffb1ba88fb3e9dd878773511/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/biel/.gradle/caches/transforms-3/c501d78c38b9191d12172eb4c29ed9c2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
