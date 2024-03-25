@@ -1,10 +1,10 @@
-package br.com.gabriel.climafacil.apiCORRETA.modelCORRETA
+package br.com.gabriel.climafacil.api.model
 
 import androidx.annotation.Keep
 import com.squareup.moshi.Json
 
 @Keep
-data class Weather(
+data class Clima(
     @Json(name = "latitude") val latitude: Double? = null,
     @Json(name = "longitude") val longitude: Double? = null,
     @Json(name = "generationtime_ms") val generationtime_ms: Double? = null,
@@ -22,40 +22,41 @@ data class Weather(
     data class CurrentUnits(
         @Json(name = "time") val time: String? = null,
         @Json(name = "interval") val interval: String? = null,
-        @Json(name = "is_day")  val is_day: String? = null,
+        @Json(name = "is_day") val is_day: String? = null,
     )
 
     data class Current(
-        @Json(name = "time")  val time: String? = null,
-        @Json(name = "interval")   val interval: Int? = null,
-        @Json(name = "is_day")  val is_day: Int? = null
+        @Json(name = "time") val time: String? = null,
+        @Json(name = "interval") val interval: Int? = null,
+        @Json(name = "is_day") val is_day: Int? = null
     )
+
     data class HourlyUnits(
         @Json(name = "time") val time: String? = null,
-        @Json(name = "temperature_2m")  val temperature2m: String? = null,
-        @Json(name = "relative_humidity_2m")  val relative_humidity_2m: String? = null,
-        @Json(name = "precipitation_probability")  val precipitation_prbability: String? = null,
+        @Json(name = "temperature_2m") val temperature2m: String? = null,
+        @Json(name = "relative_humidity_2m") val relative_humidity_2m: String? = null,
+        @Json(name = "precipitation_probability") val precipitation_prbability: String? = null,
     )
 
     data class Hourly(
-        @Json(name = "time")  val time: List<String>? = emptyList(),
+        @Json(name = "time") val time: List<String>? = emptyList(),
         @Json(name = "temperature_2m") val temperatures: List<Double>? = emptyList(),
-        @Json(name = "relative_humidity_2m")  val relative_humidity_2m: List<Int>? = emptyList(),
-        @Json(name = "precipitation_probability")  val precipitation_probability: List<Int>? = emptyList()
+        @Json(name = "relative_humidity_2m") val relative_humidity_2m: List<Int>? = emptyList(),
+        @Json(name = "precipitation_probability") val precipitation_probability: List<Int>? = emptyList()
     )
 
     data class DailyUnits(
         @Json(name = "time") val time: String? = null,
         @Json(name = "sunrise") val sunrise: String? = null,
-        @Json(name = "sunset")  val sunset: String? = null,
-        @Json(name = "uv_index_max")  val uv_index_max: String? = null,
+        @Json(name = "sunset") val sunset: String? = null,
+        @Json(name = "uv_index_max") val uv_index_max: String? = null,
     )
 
     data class Daily(
-        @Json(name = "time")  val time: List<String>? = emptyList(),
-        @Json(name = "sunrise")  val sunrise: List<String>? = emptyList(),
-        @Json(name = "sunset")  val sunset: List<String>? = emptyList(),
-        @Json(name = "uv_index_max")  val uv_index_max: List<Double>? = emptyList()
+        @Json(name = "time") val time: List<String>? = emptyList(),
+        @Json(name = "sunrise") val sunrise: List<String>? = emptyList(),
+        @Json(name = "sunset") val sunset: List<String>? = emptyList(),
+        @Json(name = "uv_index_max") val uv_index_max: List<Double>? = emptyList()
     )
 }
 

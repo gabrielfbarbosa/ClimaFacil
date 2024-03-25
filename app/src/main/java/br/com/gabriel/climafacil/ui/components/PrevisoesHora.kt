@@ -13,13 +13,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import br.com.gabriel.climafacil.apiCORRETA.modelCORRETA.Weather
-import br.com.gabriel.climafacil.model.Dado
+import br.com.gabriel.climafacil.api.model.Clima
+import br.com.gabriel.climafacil.modelinformacoes.Dado
 import br.com.gabriel.climafacil.ui.components.info.HoraTemperatura
 import br.com.gabriel.climafacil.utils.ClimaUtils
 
 @Composable
-fun PrevisoesHora(weather: Weather) {
+fun PrevisoesHora(weather: Clima) {
 
     val times = weather.hourly?.time ?: emptyList()
     val temperatures = weather.hourly?.temperatures ?: emptyList()
@@ -29,7 +29,7 @@ fun PrevisoesHora(weather: Weather) {
         Dado(
             hr = ClimaUtils().formatarHora(times[index]),
             temp = temperatures.getOrNull(index) ?: 0.0,
-            temUnit = tempUnity
+            tempUnit = tempUnity
 
         )
     }
@@ -57,9 +57,3 @@ fun PrevisoesHora(weather: Weather) {
         }
     }
 }
-
-//@Preview(showBackground = true)
-//@Composable
-//private fun PrevisoesHoraPrev() {
-//    PrevisoesHora(sampleDados)
-//}

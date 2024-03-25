@@ -5,18 +5,17 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import br.com.gabriel.climafacil.apiCORRETA.modelCORRETA.Weather
+import br.com.gabriel.climafacil.api.model.Clima
 import br.com.gabriel.climafacil.ui.components.info.CardInformacao
 import br.com.gabriel.climafacil.utils.ClimaUtils
 
 @Composable
-fun DetalhesClima(weatherResponse: Weather) {
+fun DetalhesClima(weatherResponse: Clima) {
     val indexHourly = ClimaUtils().obterIndiceDadosAtuais(weatherResponse)
     val indexDaily =  ClimaUtils().obterIndiceDadosDiarios(weatherResponse)
 
     val currentUmidityUnit = weatherResponse.hourly_units?.relative_humidity_2m ?: ""
     val currentUmidity = indexHourly?.let { weatherResponse.hourly?.relative_humidity_2m?.get(it) }?: "-"
-//    val dataHoraAtual = SimpleDateFormat("yyyy-MM-dd'T'HH:mm", Locale.getDefault()).format(Date())
 
     val currentUv = indexDaily?.let { weatherResponse.daily?.uv_index_max?.get(it) }
     val currentUvUnit = weatherResponse.daily_units?.uv_index_max ?: ""
@@ -75,13 +74,3 @@ fun DetalhesClima(weatherResponse: Weather) {
         }
     }
 }
-
-//@Preview
-//@Composable
-//private fun DetalhesClimaPrev() {
-//    ClimaFacilTheme {
-//        Surface {
-//            DetalhesClima()
-//        }
-//    }
-//}

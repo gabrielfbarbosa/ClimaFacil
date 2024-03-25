@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.gabriel.climafacil.model.Dado
+import br.com.gabriel.climafacil.modelinformacoes.Dado
 import br.com.gabriel.climafacil.ui.theme.ClimaFacilTheme
 
 @Composable
@@ -30,7 +30,7 @@ fun HoraTemperatura(dado: Dado) {
         )
 
         Text(
-            text = "${dado.temp}${dado.temUnit}",
+            text = "${dado.temp}${dado.tempUnit}",
             textAlign = TextAlign.Center,
             style = MaterialTheme.typography.titleLarge,
         )
