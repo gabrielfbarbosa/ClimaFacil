@@ -1,4 +1,4 @@
-package br.com.gabriel.climafacil.apiCORRETA
+package br.com.gabriel.climafacil.api
 
 import ClimaService
 import com.squareup.moshi.Moshi

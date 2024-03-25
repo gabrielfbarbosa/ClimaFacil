@@ -14,15 +14,12 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -31,15 +28,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
-import br.com.gabriel.climafacil.apiCORRETA.modelCORRETA.Weather
+import androidx.lifecycle.viewmodel.compose.viewModel
 import br.com.gabriel.climafacil.ui.components.TelaInicial
-import br.com.gabriel.climafacil.ui.components.info.ClimaTopAppBar
 import br.com.gabriel.climafacil.ui.theme.ClimaFacilTheme
-import br.com.gabriel.climafacil.view.WeatherSection
+import br.com.gabriel.climafacil.viewmodel.CidadeViewModel
 import br.com.gabriel.climafacil.viewmodel.MainViewModel
 import br.com.gabriel.climafacil.viewmodel.STATE
 import com.google.android.gms.location.FusedLocationProviderClient
@@ -51,11 +45,9 @@ import com.google.android.gms.location.Priority
 import com.google.android.gms.maps.model.LatLng
 import kotlinx.coroutines.coroutineScope
 import java.util.Locale
-import kotlin.coroutines.coroutineContext
 
 class MainActivity : ComponentActivity() {
 
-    //TODO: DEU BOA LOCALIZACAO MELHOR ESTRUTURADO
     private val permission = arrayOf(
         Manifest.permission.ACCESS_COARSE_LOCATION,
         Manifest.permission.ACCESS_FINE_LOCATION,
@@ -131,16 +123,14 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
-            fetchWeatherInformation(mainViewModel, currentLocation)
-
             ClimaFacilTheme {
                 Surface {
-                    LocatioScreen(this@MainActivity, currentLocation, city = city)
+                    fetchWeatherInformation(mainViewModel, currentLocation)
+                    LocatioScreen(this, currentLocation, city = city)
                 }
             }
         }
     }
-
     private fun fetchWeatherInformation(mainViewModel: MainViewModel, currentLocation: LatLng) {
         mainViewModel.state = STATE.LOADINMG
         mainViewModel.getPrevisao(currentLocation)
@@ -152,11 +142,10 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     private fun LocatioScreen(context: Context, currentLocation: LatLng, city: String) {
-
         val launcherMultiplePermissions = rememberLauncherForActivityResult(
             contract = ActivityResultContracts.RequestMultiplePermissions()
-        )
-        { permissionMaps ->
+
+        ) { permissionMaps ->
             val temPermissao = permissionMaps.values.reduce { accepted, next -> accepted && next }
             if (temPermissao) {
                 locatioRequired = true
@@ -168,16 +157,20 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        if (permission.all {
-                ContextCompat.checkSelfPermission(
-                    context,
-                    it
-                ) == PackageManager.PERMISSION_GRANTED
-            }) {
-            startLocationUpdates()
-        } else {
-            launcherMultiplePermissions.launch(permission)
-        }
+        LaunchedEffect(key1 = currentLocation, block = {
+            coroutineScope {
+                if (permission.all {
+                        ContextCompat.checkSelfPermission(
+                            context,
+                            it
+                        ) == PackageManager.PERMISSION_GRANTED
+                    }) {
+                    startLocationUpdates()
+                } else {
+                    launcherMultiplePermissions.launch(permission)
+                }
+            }
+        } )
 
         when (mainViewModel.state) {
             STATE.LOADINMG -> {
@@ -189,7 +182,8 @@ class MainActivity : ComponentActivity() {
             }
 
             else -> {
-                TelaInicial(mainViewModel.previsaoResponse, city)
+                val viewModel = viewModel<CidadeViewModel>()
+                TelaInicial(mainViewModel.previsaoResponse, city, cidadeViewModel = viewModel)
             }
         }
     }
@@ -216,22 +210,5 @@ class MainActivity : ComponentActivity() {
             CircularProgressIndicator(color = Color.Blue)
         }
     }
-
 }
 
-//@Composable
-//fun App() {
-//    ClimaFacilTheme {
-//        Surface {
-//            TelaInicial()
-//        }
-//    }
-//}
-
-//@Preview(showBackground = true)
-//@Composable
-//fun GreetingPreview() {
-//    ClimaFacilTheme {
-//        App()
-//    }
-//}

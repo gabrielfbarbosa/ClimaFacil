@@ -5,8 +5,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import br.com.gabriel.climafacil.apiCORRETA.RetrofitClient
-import br.com.gabriel.climafacil.apiCORRETA.modelCORRETA.Weather
+import br.com.gabriel.climafacil.api.RetrofitClient
+import br.com.gabriel.climafacil.api.model.Clima
 import com.google.android.gms.maps.model.LatLng
 import kotlinx.coroutines.launch
 
@@ -19,7 +19,7 @@ enum class STATE{
 class MainViewModel: ViewModel() {
     var state by mutableStateOf(STATE.LOADINMG)
 
-    var previsaoResponse: Weather by mutableStateOf(Weather())
+    var previsaoResponse: Clima by mutableStateOf(Clima())
 
     var errorMessage: String by mutableStateOf("")
 
